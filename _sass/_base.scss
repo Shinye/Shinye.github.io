@@ -8,6 +8,7 @@ body {
   color: $default-color;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -37,6 +38,10 @@ h6 {
 a {
   color: $blue;
   text-decoration: none;
+}
+
+li{
+   list-style: none;
 }
 
 blockquote {

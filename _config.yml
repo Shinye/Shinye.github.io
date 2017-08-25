@@ -2,10 +2,10 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Bad Ball Hitter
 paginate:       5
 baseurl:        ""
-url:            "https://chesterhow.github.io/tale"
+url:            "https://shinye.github.io"
 
 # Assets
 sass:
@@ -17,15 +17,15 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
-  url:          http://chester.how
-  email:        chesterhow@gmail.com
+  name:         Shinye Song
+  url:          shinye.github.io
+  email:        novembertwentysix@gmail.com
 
 # Custom vars
-version:        3.4.1
+version:        1.0
 github:
-  repo:         https://github.com/chesterhow/tale
+  repo:         https://github.com/shinye/shinye.github.io
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate

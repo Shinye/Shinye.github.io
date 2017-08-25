@@ -12,6 +12,24 @@ footer,
   width: 80%;
 }
 
+.navigation {
+  color:#555;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.navigation>a {
+  color:#555;
+  padding-right:10px;
+}
+
+.logoImg {
+  width:143.787px;
+  margin:0 auto;
+  padding-top:43px;
+}
+
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
