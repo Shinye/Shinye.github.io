@@ -4,8 +4,24 @@
   width: 80%;
 }
 
-.about_table{
+.about_info{
   font-size:17px;
+  font-weight:300;
+}
+
+.about_infoLine{
+  margin-bottom:10px;
+  line-height: 1.6;
+}
+
+.about_info dl dt{
+  float:left;
+}
+
+.about_category{
+  width:55px;
+  font-weight:bold;
+  display:inline-block;
 }
 
 .about_table tr{
