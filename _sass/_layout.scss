@@ -4,12 +4,25 @@
   width: 80%;
 }
 
+.about_table{
+  font-size:17px;
+}
+
+.about_table tr{
+  height:35px;
+}
+
+ .about_semibold{
+   font-weight:500;
+ }
+
 main,
 footer,
 .nav-container {
   margin: 0 auto;
   max-width: 800px;
   width: 80%;
+  color: #353535;
 }
 
 .navigation {
