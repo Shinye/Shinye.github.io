@@ -1,5 +1,7 @@
 .post {
-  padding: 3rem 0;
+  padding: 1.4rem 0;
+  -webkit-font-smoothing: antialiased;
+
 
   &-info {
     color: $default-tint;
@@ -15,7 +17,7 @@
   &-title {
     color: $default-shade;
     font-family: $sans-font;
-    font-size: 4rem;
+    font-size: 2.6rem;
     margin: 1rem 0;
     text-align: center;
   }
@@ -30,9 +32,14 @@
   p {
     margin: 0 0 1rem;
     text-align: justify;
+    line-height: 1.7;
   }
 
   a:hover {
     text-decoration: underline;
   }
 }
+
+.post-contents {font-size: 18px; font-weight: 300;}
+
+@media (max-width: 38rem) {.post-contents {font-size: 16px;} .post-contents p {font-size: 16px; line-height:1.7em;}}
