@@ -29,3 +29,7 @@ github:
 # Gems
 plugins:
   - jekyll-paginate
+
+# Google analytics
+google-analytics:
+  id: "UA-105708008-1"

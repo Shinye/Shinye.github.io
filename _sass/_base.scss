@@ -36,7 +36,7 @@ h6 {
 }
 
 a {
-  color: $blue;
+  color: #1cb9b3;
   text-decoration: none;
 }
 
@@ -80,3 +80,7 @@ td {
   margin-top:30px;
   margin-bottom:30px;
 }
+
+img.alignleft{float:left}
+img.alignright{float:right}
+img.aligncenter{display:block;margin:0 auto}
