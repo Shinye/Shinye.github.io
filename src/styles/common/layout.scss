@@ -1,0 +1,22 @@
+:local .logo {
+    width: 127px;
+}
+
+:local .menu {
+    margin-top: 5px;
+    font-size: 15px;
+
+    & .menu_item {
+        font-style: italic;
+        margin-right: 7px;
+        text-decoration: none;
+        color: #2e353f;
+        font-weight: 300;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+
