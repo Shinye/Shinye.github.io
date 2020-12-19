@@ -55,7 +55,7 @@
   --fontSize-5: 30px;
   --fontSize-6: 35px;
   --fontSize-7: 35px;
-  --color-primary: #008A7E;
+  --color-primary: #58957c;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -82,7 +82,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
-  background-color: #eaeaea;
+  background-color: #fffcf4;
 }
 
 footer {

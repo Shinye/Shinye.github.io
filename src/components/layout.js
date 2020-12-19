@@ -11,14 +11,14 @@ const Layout = ({ location, title, children }) => {
   const header = (
     <h1 className="main-heading">
       <Link to="/">
-        <img src={logo} className={styles.logo}/>
-        <div className={styles.menu}>
-          <Link className={styles.menu_item} to="/">Root</Link>
-          <Link className={styles.menu_item} to="/peace">Peace</Link> 
-          <Link className={styles.menu_item} to="/love">Love</Link> 
-          <Link className={styles.menu_item} to="/about">About</Link> 
-        </div>
+        🕊🤍
       </Link>
+      <div className={styles.menu}>
+        <Link className={styles.menu_item} to="/">Root</Link>
+        <Link className={styles.menu_item} to="/peace">Peace</Link> 
+        <Link className={styles.menu_item} to="/love">Love</Link> 
+        <Link className={styles.menu_item} to="/about">About</Link> 
+      </div>
     </h1>
   )
 
