@@ -1,8 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const logo = require('../../static/images/logo.svg');
-const styles = require('../styles/common/layout.scss');
+const styles = require('./layout.scss');
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
