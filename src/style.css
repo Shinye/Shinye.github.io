@@ -82,12 +82,14 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: #eaeaea;
 }
 
 footer {
   font-size: 13px;
   font-style: italic;
   padding: var(--spacing-6) var(--spacing-0);
+  text-align: center;
 }
 
 hr {

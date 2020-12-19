@@ -14,8 +14,8 @@ const Layout = ({ location, title, children }) => {
         <img src={logo} className={styles.logo}/>
         <div className={styles.menu}>
           <Link className={styles.menu_item} to="/">Root</Link>
-          <Link className={styles.menu_item} to="/">Peace</Link> 
-          <Link className={styles.menu_item} to="/">Love</Link> 
+          <Link className={styles.menu_item} to="/peace">Peace</Link> 
+          <Link className={styles.menu_item} to="/love">Love</Link> 
           <Link className={styles.menu_item} to="/about">About</Link> 
         </div>
       </Link>
