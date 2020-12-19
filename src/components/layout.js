@@ -4,19 +4,28 @@ import { Link } from "gatsby"
 const styles = require('./layout.scss');
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+  const rootPath = `${__PATH_PREFIX__}/`;
+  const isRootPath = location.pathname === rootPath;
+
+  const menu_item_style = {
+    fontSize: '15px',
+    fontStyle: 'italic',
+    marginRight: '7px',
+    textDecoration: 'none',
+    color: '#2e353f',
+    fontWeight: '300',
+  };
 
   const header = (
     <h1 className="main-heading">
       <Link to="/">
         🕊🤍
       </Link>
-      <div className={styles.menu}>
-        <Link className={styles.menu_item} to="/">Root</Link>
-        <Link className={styles.menu_item} to="/peace">Peace</Link> 
-        <Link className={styles.menu_item} to="/love">Love</Link> 
-        <Link className={styles.menu_item} to="/about">About</Link> 
+      <div>
+        <a style={menu_item_style} className={styles.menu_item} href="/">Root</a>
+        <a style={menu_item_style} className={styles.menu_item} href="/peace">Peace</a> 
+        <a style={menu_item_style} className={styles.menu_item} href="/love">Love</a> 
+        <a style={menu_item_style} className={styles.menu_item} href="/about">About</a> 
       </div>
     </h1>
   )
