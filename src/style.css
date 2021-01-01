@@ -268,7 +268,7 @@ a:focus {
 
 .post-list-item {
   margin-bottom: 16px;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .post-list-item p {
@@ -325,6 +325,7 @@ a:focus {
 
 .blog-post section p {
   font-size: 15px;
+  margin-bottom: 15px;
 }
 
 .blog-post-nav ul {
