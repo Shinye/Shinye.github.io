@@ -1,5 +1,5 @@
 ---
-title: 2020년
+title: 2020년 (단상편)
 date: "2020-12-29T22:00:00.121Z"
 category: "peace"
 description: "서른살은 어른이 되기 딱 좋은 나이"
