@@ -1,11 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const styles = require('./layout.scss');
+const logo = require('../../static/images/logo.svg');
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
   const isRootPath = location.pathname === rootPath;
+
+  const menu_container = {
+    marginTop: '-10px'
+  };
 
   const menu_item_style = {
     fontSize: '15px',
@@ -16,16 +20,20 @@ const Layout = ({ location, title, children }) => {
     fontWeight: '300',
   };
 
+  const logo_style = {
+    width: '80px',
+  };
+
   const header = (
     <h1 className="main-heading">
       <Link to="/">
-        🕊🤍
+        <img style={logo_style} src={logo} />
       </Link>
-      <div>
-        <a style={menu_item_style} className={styles.menu_item} href="/">Root</a>
-        <a style={menu_item_style} className={styles.menu_item} href="/peace">Peace</a> 
-        <a style={menu_item_style} className={styles.menu_item} href="/love">Love</a> 
-        <a style={menu_item_style} className={styles.menu_item} href="/about">About</a> 
+      <div style={menu_container}>
+        <a style={menu_item_style} href="/">index</a>
+        <a style={menu_item_style} href="/peace">peace</a> 
+        <a style={menu_item_style} href="/love">love</a> 
+        <a style={menu_item_style} href="/about">about</a> 
       </div>
     </h1>
   )
