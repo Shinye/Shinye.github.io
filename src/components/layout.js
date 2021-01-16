@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
 const logo = require('../../static/images/logo.svg');
 
@@ -34,6 +35,9 @@ const Layout = ({ location, title, children }) => {
         <a style={menu_item_style} href="/peace">peace</a> 
         <a style={menu_item_style} href="/love">love</a> 
         <a style={menu_item_style} href="/about">about</a> 
+      </div>
+      <div>
+        <ThemeToggler></ThemeToggler>
       </div>
     </h1>
   )
